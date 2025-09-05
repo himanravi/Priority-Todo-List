@@ -1,53 +1,102 @@
-Priority Todo List
-A simple, yet effective client-side to-do list application designed to help you organize tasks based on priority. The application runs entirely in your browser, using localStorage to persist your tasks.
+# ✅ Priority To-Do List (TaskTrackerPro)
 
-Features
-Task Management: Add, edit, and delete tasks with ease.
-Priority Levels: Assign High, Medium, or Low priority to each task.
-Task Filtering: Filter your to-do list to view all tasks or only those with a specific priority.
-Persistent Storage: Your tasks are saved in your browser's local storage, so they'll be there when you return.
-Theme Toggle: Switch between a light and dark mode for comfortable viewing.
-Responsive Design: A clean and responsive UI built with Bootstrap that works on all screen sizes.
-Architecture Overview
-This project uses a simple client-server architecture:
+A modern and lightweight **Priority-Based To-Do List Web App** built with **Python, HTML, CSS, and JavaScript**.  
+Stay organized, boost productivity, and manage tasks with **priority levels** — all in a clean and responsive UI. 🚀  
 
-Backend: A minimal Flask server is used to serve the static HTML, CSS, and JavaScript files to the browser. It does not handle any application logic or data storage.
-Frontend: The entire application logic is handled on the client-side by vanilla JavaScript. It manages task state, user interactions, and rendering.
-Data Storage: All task data is stored in the browser's localStorage. This means your to-do list is specific to the browser and device you are using.
-Tech Stack
-Frontend:
-HTML5
-CSS3
-Vanilla JavaScript
-Bootstrap 5
-Backend:
-Python
-Flask
-Getting Started
-To get a local copy up and running, follow these simple steps.
+---
 
-Prerequisites
-Python 3.x installed on your system.
-pip (Python package installer)
-Installation
-Clone the repository:
+## ✨ Features
+- 📝 **Task Management** → Add, edit, and delete tasks easily  
+- 🎯 **Priority Levels** → Assign **High / Medium / Low** priorities  
+- 🔍 **Task Filtering** → View all tasks or filter by priority  
+- 💾 **Persistent Storage** → Tasks are saved in your browser’s `localStorage`  
+- 🌓 **Theme Toggle** → Switch between **light & dark mode**  
+- 📱 **Responsive Design** → Works on mobile, tablet, and desktop  
 
-git clone https://github.com/your-username/Priority-Todo-List.git
+---
+
+## 🛠️ Tech Stack
+- 🎨 **Frontend**: HTML5, CSS3, JavaScript (Vanilla)  
+- ⚡ **Backend**: Python (Flask for serving static files)  
+- 📂 **Data Storage**: LocalStorage (browser-based persistence)  
+- 🖥️ **Environment**: Works locally on VS Code / Replit  
+
+---
+
+## 📂 Project Structure
+To-Do List/
+├── TaskTrackerPro/
+│ ├── static/ # CSS, JS, and assets
+│ ├── templates/ # HTML files (if Flask)
+│ ├── app.py # Flask backend
+│ ├── main.py # Entry point
+│ └── ...
+├── README.md
+└── requirements.txt
+
+yaml
+Copy code
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🔧 Prerequisites
+- Python **3.x** installed  
+- `pip` (Python package manager)  
+
+### 📥 Clone the Repository
+```bash
+git clone https://github.com/himanravi/Priority-Todo-List.git
 cd Priority-Todo-List
-Create and activate a virtual environment (recommended):
+🖥️ Setup Virtual Environment
+For Windows:
 
-# For Windows
+bash
+Copy code
 python -m venv .venv
 .venv\Scripts\activate
+For macOS/Linux:
 
-# For macOS/Linux
+bash
+Copy code
 python3 -m venv .venv
 source .venv/bin/activate
-Install the necessary Python packages:
-
-pip install Flask
-Run the application:
-
+📦 Install Dependencies
+bash
+Copy code
+pip install -r requirements.txt
+▶️ Run the App
+bash
+Copy code
 python TaskTrackerPro/app.py
-Open your browser: Navigate to http://127.0.0.1:5000 to view and use the application.
+Now open 👉 http://127.0.0.1:5000/ in your browser.
 
+🎯 Usage
+➕ Add a task with priority
+
+✅ Mark it complete when finished
+
+🔄 Switch between Light/Dark themes
+
+📂 Tasks are saved automatically
+
+🤝 Contributing
+Contributions are welcome! 💡
+
+Fork this repo
+
+Create a feature branch (git checkout -b feature-name)
+
+Commit changes (git commit -m "Added new feature")
+
+Push branch (git push origin feature-name)
+
+Open a Pull Request
+
+📄 License
+Licensed under the MIT License.
+You are free to use, modify, and distribute this project.
+
+👨‍💻 Author
+Himan Ravi Shetty
